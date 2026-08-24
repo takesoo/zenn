@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "zenn:preview": "zenn preview",
+    "zenn:new:article": "zenn new:article",
+    "zenn:new:book": "zenn new:book",
+    "zenn:list:articles": "zenn list:articles",
+    "zenn:list:books": "zenn list:books"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +15,6 @@
   "description": "",
   "dependencies": {
     "zenn-cli": "^0.2.1"
-  }
+  },
+  "packageManager": "pnpm@11.23.0+sha512.f00082e5b283a199b74e079da28d155c008fe232f44c8a06ea7ddfa014ecf719fc362f790ecc67b28106ddac2afb24c49a9a079159da560b2ce7d1e98efd11af"
 }
